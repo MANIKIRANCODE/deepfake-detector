@@ -1,0 +1,24 @@
+# Virtual environment -- never commit this, it's huge and machine-specific
+venv/
+
+# Dataset -- huge, and not yours to redistribute (download instructions are in README)
+data/
+data_small/
+
+# Trained model weights -- large binary files, regenerate with train.py
+weights/*.pt
+weights/*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Leftover stray folder from earlier zip extraction, if present
+{src,app}/
